@@ -11,6 +11,8 @@ In this section we were asked to review the given unstructured csv files address
 
 After extracting the unstructured CSV data into normalised data frame in python, I have noticed quite a few data quality issues as indicated in the referenced file.
 
+Describe ERD daigarm here
+
 Data Description and Quality Analysis is found from Reference: **FETCH_Data.pdf**
 
 The supporting code to find all these analysis is found from Reference : **FETCH_EDA.ipynb**
