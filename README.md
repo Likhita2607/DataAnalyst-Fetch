@@ -11,11 +11,9 @@ In this section we were asked to review the given unstructured csv files address
 
 After extracting the unstructured CSV data into normalised data frame in python, I have noticed quite a few data quality issues as indicated in the referenced file.
 
-Describe ERD daigarm here
+Data Description and Quality Analysis is found from Reference: **FETCH_Data_Analysis.pdf**
 
-Data Description and Quality Analysis is found from Reference: **FETCH_Data.pdf**
-
-The supporting code to find all these analysis is found from Reference : **FETCH_EDA.ipynb**
+The supporting code to find all these analysis is derived from Reference : **FETCH_EDA.ipynb**
 
 ## Second: provide SQL queries:
 I first installed Microsoft Sql Server Management Studio 2014 and set up my local server. I also installed Microsoft ACE OLEDB 12.0 drivers to load data from csv into sql table.
