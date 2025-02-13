@@ -2,13 +2,17 @@
 
 # Repository Overview:
 This repository outlines the process of cleaning unstructured data, generating actionable insights, and addressing key business questions as part of Fetch Assessment.In this exercise I used Python for Exploratory Data Analysis, Microsoft SQL and Power BI for answering business questions and generating insights in stakeholder communication email. 
+
 The steps and methodologies employed to clean the data and extract meaningful insights are detailed below.
 
 # Exercise Assessment:
 ## First: explore the data
 In this section we were asked to review the given unstructured csv files addressing the data quality issues and challenging issues in the data with supporting code.
+
 After extracting the unstructured CSV data into normalised data frame in python, I have noticed quite a few data quality issues as indicated in the referenced file.
+
 Data Description and Quality Analysis is found from Reference: **FETCH_Data.pdf**
+
 The supporting code to find all these analysis is found from Reference : **FETCH_EDA.ipynb**
 
 ## Second: provide SQL queries:
