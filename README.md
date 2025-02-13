@@ -22,6 +22,8 @@ I then imported excelfiles generated from .ipynb file given into master database
 
 After successful loading of data into master database, I have written the atached SQL queries (in MS SQL) for business questions given.
 
+I have also done the same analysis in Power BI and attached the results in the PDF below. I have imported datasets into Power BI, transformed them in Power Query editor by adding few calculated columns (Customer Age, Customer Account Age, Generation), measures (YOY%) using DAX and generated visuals for the given business questions.
+
 Reference : **FETCH SQL QUERIES.pdf**
 
 ## Third: communicate with stakeholders :
