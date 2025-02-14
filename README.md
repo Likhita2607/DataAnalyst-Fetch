@@ -11,18 +11,20 @@ In this section we were asked to review the given unstructured csv files address
 
 After extracting the unstructured CSV data into normalised data frame in python, I have noticed quite a few data quality issues as indicated in the referenced file.
 
-Data Description and Quality Analysis is found from Reference: **FETCH_Data_Analysis.pdf**
+- Data Description and Quality Analysis is found from Reference: **FETCH_Data_Analysis.pdf**
 
-The supporting code to find all these analysis is derived from Reference : **FETCH_EDA.ipynb**
+- The supporting code to find all these analysis is derived from Reference : **FETCH_EDA.ipynb**
 
 ## Second: provide SQL queries:
-I first installed Microsoft Sql Server Management Studio 2014 and set up my local server. I also installed Microsoft ACE OLEDB 12.0 drivers to load data from csv into sql table.
 
-I then imported excelfiles generated from .ipynb file given into master database and created tables for each of the files by clicking on Tasks-> Import Data. Then the SQL Server Import Wizard opens up to create a new destination table and then edit the mappings to load data from excel files.
+### Steps to install SSMS: ###
+- I first installed **Microsoft Sql Server Management Studio 2014** and set up my local server and **Microsoft ACE OLEDB 12.0** drivers to load data from csv into sql table.
 
-After successful loading of data into master database, I have written the atached SQL queries (in MS SQL) for business questions given.
+- Imported excelfiles generated from .ipynb file given into master database and created tables for each of the files by clicking on Tasks-> Import Data. Then the SQL Server Import Wizard opens up to create a new destination table and then edit the mappings to load data from excel files.
 
-I have also done the same analysis in Power BI and attached the results in the PDF below. I have imported datasets into Power BI, transformed them in Power Query editor by adding few calculated columns (Customer Age, Customer Account Age, Generation), measures (YOY%) using DAX and generated visuals for the given business questions.
+- After successful loading of data into master database, I have written the atached SQL queries (in MS SQL) for business questions given.
+
+- I have also performmed the same analysis in **Power BI** and attached the results in the PDF below. I have imported datasets into Power BI, transformed them in Power Query editor by adding few calculated columns (Customer Age, Customer Account Age, Generation), measures (YOY%) using DAX and generated visuals for the given business questions.
 
 Reference : **FETCH SQL QUERIES.pdf**
 
